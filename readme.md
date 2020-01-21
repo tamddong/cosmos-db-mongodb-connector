@@ -6,9 +6,9 @@ This tutorial helps to use Spark Connector with CosmosDB using MongoDB API
 
 The official CosmosDB Spark Connector for SQL API can be found : [here](https://github.com/Azure/azure-cosmosdb-spark).
 ### Prerequisites
-1. You need to create a HDInsight Spark using this [guide](https://docs.microsoft.com/en-us/azure/hdinsight/spark/apache-spark-jupyter-spark-sql).
-2. Install the jar using this [guide](https://github.com/Azure/azure-cosmosdb-spark/wiki/Spark-to-Cosmos-DB-Connector-Setup)
-  Instead of loading the SQL API jar like in the guide, use the jar [org.mongodb.spark:mongo-spark-connector_2.11:2.4.0](https://mvnrepository.com/artifact/org.mongodb.spark/mongo-spark-connector_2.11/2.4.0)
+1. You need to create a HDInsight Spark cluster using this [guide](https://docs.microsoft.com/en-us/azure/hdinsight/spark/apache-spark-jupyter-spark-sql).
+2. Install the MongoDB-Spark jar using this [guide](https://github.com/Azure/azure-cosmosdb-spark/wiki/Spark-to-Cosmos-DB-Connector-Setup)
+  Instead of loading the SQL API jar like in the guide, use this jar [org.mongodb.spark:mongo-spark-connector_2.11:2.4.0](https://mvnrepository.com/artifact/org.mongodb.spark/mongo-spark-connector_2.11/2.4.0)
 3. Create a CosmosDB with MongoDB API
 4. Create a collection and an item you'd like you write data to using the Spark Connector
 
