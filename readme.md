@@ -28,7 +28,7 @@ The official CosmosDB Spark Connector for SQL API can be found : [here](https://
 
 #### PySpark 
 ```
-CONNECTION_STRING = "mongodb://youralias-cosmosdb-mongo:rc3M7b17nk3mskZgNmJIGNfNL1RurvioLnpxM6CXZNkhwBr0dBorPZZvNLVrtrh1TNvliyQjjDyCGUXhNkwtPg==@youralias-cosmosdb-mongo.mongo.cosmos.azure.com:10255/collectionname.itemname?ssl=true&replicaSet=globaldb&maxIdleTimeMS=120000&appName=@tadong-cosmosdb-mongo@"
+CONNECTION_STRING = "mongodb://youralias-cosmosdb-mongo:rc3M7b17nk3mskZgNmJIGNfNL1RurvioLnpxM6CXZNkhwBr0dBorPZZvNLVrtrh1TNvliyQjjDyCGUXhNkwtPg==@youralias-cosmosdb-mongo.mongo.cosmos.azure.com:10255/collectionname.itemname?ssl=true&replicaSet=globaldb&maxIdleTimeMS=120000&appName=@youralias-cosmosdb-mongo@"
 ```
 You can get your connection string in your CosmosDB MongoDB API > Azure Portal > Connection String
 Also remember to add in your collection name and item name after the port number. (In the sample link above, port number is 10255)
